@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comic+Neue:wght@300&family=Concert+One&family=Noto+Serif+SC:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comic+Neue:wght@300&family=Concert+One&family=Noto+Serif+SC:wght@200&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comic+Neue:wght@300&family=Concert+One&family=Noto+Serif+SC:wght@200&family=Silkscreen&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Comic+Neue:wght@300&family=Concert+One&family=Noto+Serif+SC:wght@200&family=Silkscreen&family=Work+Sans:wght@100&display=swap');
 
 .logo1 {
-    font-family: 'Concert One', sans-serif;
+    font-family: 'Anton', sans-serif;
     text-shadow: 7px 7px 7px black;
     font-size: 100px;
-    color: lightgreen;
+    color: gold;
     cursor: pointer;
     top: 0;
     position: fixed;
@@ -21,7 +22,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    font-family:'Work Sans', Times, serif;
+    font-family:'Silkscreen', Times, serif;
     color: gold;
 }
 footer {
@@ -41,12 +42,12 @@ footer {
     text-shadow: 5px 5px 5px black;
     box-shadow: 0px 5px 15px rgba(0,0,0,.5);
     border-radius: 50px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .box2 h2 {
     margin: 0 0 20px;
     padding: 0;
-    font-size: 30px;
+    font-size: 35px;
     text-transform: uppercase;
     text-shadow: 5px 5px 5px black;
 }
