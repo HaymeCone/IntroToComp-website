@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comic+Neue:wght@300&family=Concert+One&family=Noto+Serif+SC:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comic+Neue:wght@300&family=Concert+One&family=Noto+Serif+SC:wght@200&family=Work+Sans:wght@100&display=swap');
+
+.logo1 {
+    font-family: 'Concert One', sans-serif;
+    text-shadow: 7px 7px 7px black;
+    font-size: 100px;
+    color: lightgreen;
+    cursor: pointer;
+    top: 0;
+    position: fixed;
+}
+.body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("shadow.jpeg");
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family:'Work Sans', Times, serif;
+    color: gold;
+}
+footer {
+    color: lightblue;
+    font-size: 20px;
+    padding: 0px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.box {
+    position: relative;
+    max-width: 600px;
+    padding: 150px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 5px 15px rgba(0,0,0,.5);
+    border-radius: 10px;
+    font-size: 30px;
+}
+.box a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+    font-size: 30px;
+    letter-spacing: .5px;
+    padding: 0 10px;
+}
+.box a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;
+}
+.box a:hover {
+    color: white;
+}
+.box a:hover:after {
+    width: 100%;
+}
+.box h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px black;
+}
+.footerNav a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 0 10px;
+}
+.footerNav a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;
+}
+.footerNav a:hover {
+   color: white;
+}
+.footerNav a:hover:after {
+    width: 100%;
+}
